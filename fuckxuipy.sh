@@ -28,9 +28,9 @@ tgbots(){
 upd
 pyzt
 echo "Enter your IP CIOR!"
-read sbip
+read  0.0.0.0/8 
 echo "ENTER YOUR MAX FUCKXUI RATE!"
-read fucku
+read 2000
 masscan -p54321 ${sbip} --max-rate ${fucku} -oG results.txt
 cvv
 tgbots
